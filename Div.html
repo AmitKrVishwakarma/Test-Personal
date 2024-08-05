@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Div work</title>
+    <style>
+        .square{
+            background-color: rgba(0, 0, 0, 0.203);
+            width: 200px;
+            height: 90px;
+            margin-left: 500px;
+            margin-top: 300px;
+            border: 1px solid rgba(0, 0, 0, 0.307);
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .square p{
+            margin-left: 10px;
+            margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            display: block;
+        }
+        .yes{
+            margin-bottom: 17px;
+            margin-left: 10px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            width:40px;
+            height: 20px;
+            border-radius: 4px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .no{
+            border: none;
+            background-color: rgba(0, 0, 0, 0.314);
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            width:40px;
+            height: 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .yes:hover{
+            background-color: white;
+            color: black;
+        }
+        .yes:active{
+            background-color: black;
+            color: white;
+        }
+        .no:hover{
+            background-color: rgba(141, 2, 2, 0.594);
+        }
+        .no:active{
+            background-color: rgba(0, 0, 0, 0.314);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class = "square">
+        <p>
+            Are you satisfied with our service?
+        </p>
+        <button class = "yes" >Yes</button>
+        <button class = "no" >No</button>
+    </div>
+</body>
+</html>

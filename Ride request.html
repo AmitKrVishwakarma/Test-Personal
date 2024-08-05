@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Request Ride</title>
+    <style>
+        .text{
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 400px;
+            margin-top: 200px;
+        }
+        .Pickup_L{
+            width: 408px;
+            height: 50px;
+            margin-left: 400px;
+            display: block;
+            padding-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            border: 1px solid rgba(0, 0, 0, 0.458);
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .desti_L{
+            width: 408px;
+            height: 50px;
+            margin-left: 400px;
+            display: block;
+            padding-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            border: 1px solid rgba(0, 0, 0, 0.458);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .Request{
+            width: 150px;
+            height: 40px;
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+            border: none;
+            border-radius: 10px;
+            margin-left: 400px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .Request:hover{
+            opacity: 77%;
+        }
+        .Request:active{
+            opacity: 50%;
+        }
+        .Schedule{
+            width: 150px;
+            height: 40px;
+            border: 1px solid rgba(0, 0, 0, 0.124);
+            background-color: rgba(0, 0, 0, 0.066);
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-size: 13px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .Schedule:hover{
+            background-color: black;
+            color: white;
+            border: none;
+        }
+        .Schedule:active{
+            background-color: rgba(0, 0, 0, 0.066);
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <p class = "text">
+        Request a ride now
+    </p>
+    <input class = "Pickup_L" type="text" placeholder="Enter Pickup location">
+    <input class = "desti_L" type="text" placeholder="Enter Destination">
+    <button class = "Request">Request now</button>
+    <button class = "Schedule">Schedule for later</button>
+</body>
+</html>
