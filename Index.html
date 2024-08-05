@@ -5,75 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test site</title>
     <style>
-        .subscribe{
-            background-color: rgb(238, 0, 0);
+        .first_name{
+            width: 110px;
+            height: 30px;
+            margin-left: 470px;
+            margin-top: 250px;
+            font-size: 15px;
+            border: 1px solid rgba(0, 0, 0, 0.383);
+            border-radius: 6px;
+            padding-left: 10px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .last_name{
+            width: 110px;
+            height: 30px;
+            border: 1px solid rgba(0, 0, 0, 0.383);
+            font-size: 15px;
+            border-radius: 6px;
+            padding-left: 10px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .email{
+            width: 237px;
+            height: 30px;
+            margin-left: 470px;
+            margin-top: 10px;
+            display: block;
+            font-size: 15px;
+            border: 1px solid rgba(0, 0, 0, 0.383);
+            border-radius: 6px;
+            padding-left: 15px;
+            font-weight: bold;
+        }
+        .signup{
+            width: 255px;
+            height: 50px;
+            background-color: rgb(0, 140, 255);
+            border: none;
+            border-radius: 6px;
             color: white;
             font-size: 20px;
-            border: 0px;
-            width: 25%;
-            height: 40px;
-            border-radius: 6px;
+            font-weight: bold;
+            margin-left: 470px;
+            margin-top: 10px;
             cursor: pointer;
-            margin-right: 20px;
-            margin-bottom: 20px;
         }
-
-        .subscribe:hover{
-            opacity: 0.6;
-        }
-        .subscribe:active{
-            opacity: 0.3;
-        }
-
-        .join{
+        .signup:hover{
             background-color: white;
-            color: rgb(0, 132, 255);
-            border: 1px solid rgb(0, 132, 255);
-            font-size: 17px;
-            font-weight: bold;
-            width: 75px;
-            height: 38px;
-            border-radius: 6px;
-            margin-right: 20px;
-            margin-bottom: 20px;
+            color:  rgb(0, 140, 255);
+            border: 1px solid  rgb(0, 140, 255);
         }
-
-        .join:hover{
-            background-color: rgb(0, 132, 255);
-            color: white;
-        }
-        .join:active{
-            background-color: white;
-            color:  rgb(0, 132, 255);
-        }
-
-        .hit{
-            background-color:  rgb(0, 132, 255);
-            color: white;
-            font-size: 19px;
-            font-weight: bold;
-            border: none;
-            height: 40px;
-            border-radius: 80%;
-            margin-bottom: 20px;
-        }
-
-        .hit:hover{
-            background-color: white;
-            color: rgb(0, 132, 255);
-            border: 1px solid rgb(0, 132, 255);
-        }
-        .hit:active{
-            background-color: rgb(0, 132, 255);
+        .signup:active{
+            background-color: rgb(2, 103, 186);
             color: white;
         }
     </style>
 </head>
 <body>
-    <button class="subscribe">SUBSCRIBE</button> <br>
-    <button class="join">JOIN</button><br>
-    <button class="hit">HIT</button>
-    <button class=""
-
+    <input class = "first_name" type = "text" placeholder = "First name">
+    <input class = "last_name" type = "text" placeholder = "Last name">
+    <input class = "email" type = "text" placeholder = "Email">
+    <button class = "signup"> Sign Up </button>
 </body>
 </html>
